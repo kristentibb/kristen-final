@@ -1,0 +1,27 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Episodes{% endblock %}
+
+{% block page_description %}A list of all Worlds Beyond Number public episodes{% endblock %}
+
+{% block content %}
+<article class="container">
+  <h1>Episodes</h1>
+  <p>All public episodes of Worlds Beyond Number.</p>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for episode in episodes.export %}
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> {{ episode.title }} </h5>
+          <p class="card-text"> {{ episode.description }}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ episode.link }}" class="card-link">Listen here</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

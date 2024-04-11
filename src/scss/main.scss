@@ -21,7 +21,18 @@
 // Import partials
 @import 'nav';
 @import 'jumbotron';
+@import 'episodes';
 
 h3 {
   font-size: 1.5rem;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
