@@ -1,0 +1,40 @@
+{
+  "campaigns": [
+    {
+      "slug": "children",
+      "name": "The Children’s Adventure",
+      "image": "children.jpg",
+      "art": "Official campaign art by Carly Monardo",
+      "post": [
+        {
+          "type": "text",
+          "value": "The Children's Adventure is a Level 0 prequel to <a href=\"https://worldsbeyondnumber.miraheze.org/wiki/The_Wizard,_the_Witch,_and_the_Wild_One\">The Wizard, the Witch, and the Wild One</a>. It plays through the events of the summer the three protagonists met and is focused on world- and character-building for that campaign. It premiered on February 1, 2023, and ended on March 1, 2023. Episode 1 is available to the public, and the remaining 7 episodes are exclusive on the Patreon."
+        }
+      ]
+    },
+    {
+      "slug": "wwwo",
+      "name": "The Wizard, the Witch and the Wild One",
+      "image": "wwwo.jpg",
+      "art": "Campaign art from the official site",
+      "post": [
+        {
+          "type": "text",
+          "value": "The Wizard, the Witch and the Wild One is set in the world of Umora and follows the story of the three protagonists: Suvi (the wizard), Ame (the witch) and Eursulon (the wild one). It is an ongoing campaign that premiered on March 1, 2023."
+        }
+      ]
+    },
+    {
+      "slug": "county",
+      "name": "A County Affair",
+      "image": "county.jpg",
+      "art": "Official art by Meg Lloyd",
+      "post": [
+        {
+          "type": "text",
+          "value": "A crew of farm animals will come together to perform one last heist: the Family Farms Inc. kettle corn truck.<a href=\"https://worldsbeyondnumber.miraheze.org/wiki/A_County_Affair#cite_note-4\">[4]</a> This two-part story uses the <a href=\"https://rollforshoes.com/\">Roll for Shoes</a> system by DWeird. premiered on June 29, 2023, and ended two weeks later on July 13. It was exclusive on the Patreon until its public release September 12, 2023."
+        }
+      ]
+    }
+  ]
+}

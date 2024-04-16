@@ -14,7 +14,13 @@
       "fileId": "17LKGL_RO7LLB5NDUZp8_B6fI5IxheWpxwF6v5LSokQw",
       "type": "sheet",
       "name": "episodes"
+    },
+    {
+      "fileId": "13hzvIjkuXcC-vU3Afxe4eejjSfDEYP6Ay-qXepz5IDE",
+      "type": "doc",
+      "name": "campaigns"
     }
+    
   ],
   "to_bake": [
     {
@@ -23,6 +29,14 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+
+    {
+      "template": "bake-campaigns",
+      "data": "campaigns",
+      "array": "campaigns",
+      "slug": "slug",
+      "path": "campaigns"
     }
   ]
 }

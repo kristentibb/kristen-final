@@ -5,19 +5,19 @@
 {% block page_description %}A list of all Worlds Beyond Number public episodes{% endblock %}
 
 {% block content %}
-<article class="container">
+<article class="container quicksand">
   <h1>Episodes</h1>
-  <p>All public episodes of Worlds Beyond Number.</p>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <p>All public episodes of Worlds Beyond Number, from most recent to first released.</p>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
     {% for episode in episodes.export %}
     <div class="col">
-      <div class="card">
+      <div class="card h-100 text-bg-transparent border-warning quicksand">
         <div class="card-body">
           <h5 class="card-title"> {{ episode.title }} </h5>
           <p class="card-text"> {{ episode.description }}</p>
         </div>
-        <div class="card-footer">
-          <a href="{{ episode.link }}" class="card-link">Listen here</a>
+        <div class="card-footer bg-transparent border-warning">
+          <a href="{{ episode.link }}" class="card-link btn btn-warning">Listen here</a>
         </div>
       </div>
     </div>
