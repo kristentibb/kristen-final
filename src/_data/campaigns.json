@@ -8,7 +8,11 @@
       "post": [
         {
           "type": "text",
-          "value": "The Children's Adventure is a Level 0 prequel to <a href=\"https://worldsbeyondnumber.miraheze.org/wiki/The_Wizard,_the_Witch,_and_the_Wild_One\">The Wizard, the Witch, and the Wild One</a>. It plays through the events of the summer the three protagonists met and is focused on world- and character-building for that campaign. It premiered on February 1, 2023, and ended on March 1, 2023. Episode 1 is available to the public, and the remaining 7 episodes are exclusive on the Patreon."
+          "value": "The Children's Adventure is a Level 0 prequel to The Wizard, the Witch, and the Wild One. It plays through the events of the summer the three protagonists met and is focused on world- and character-building for that campaign."
+        },
+        {
+          "type": "text",
+          "value": "It premiered on February 1, 2023, and ended on March 1, 2023. Episode 1 is available to the public, and the remaining 7 episodes are exclusive on the Patreon."
         }
       ]
     },
@@ -20,7 +24,11 @@
       "post": [
         {
           "type": "text",
-          "value": "The Wizard, the Witch and the Wild One is set in the world of Umora and follows the story of the three protagonists: Suvi (the wizard), Ame (the witch) and Eursulon (the wild one). It is an ongoing campaign that premiered on March 1, 2023."
+          "value": "The Wizard, the Witch and the Wild One is set in the world of Umora and follows the story of the three protagonists: Suvi (the wizard), Ame (the witch) and Eursulon (the wild one)."
+        },
+        {
+          "type": "text",
+          "value": "This is the main and longest-running campaign on Worlds Beyond Number, first premiering on March 1, 2023."
         }
       ]
     },
@@ -32,7 +40,11 @@
       "post": [
         {
           "type": "text",
-          "value": "A crew of farm animals will come together to perform one last heist: the Family Farms Inc. kettle corn truck.<a href=\"https://worldsbeyondnumber.miraheze.org/wiki/A_County_Affair#cite_note-4\">[4]</a> This two-part story uses the <a href=\"https://rollforshoes.com/\">Roll for Shoes</a> system by DWeird. premiered on June 29, 2023, and ended two weeks later on July 13. It was exclusive on the Patreon until its public release September 12, 2023."
+          "value": "A crew of farm animals will come together to perform one last heist: the Family Farms Inc. kettle corn truck. This two-part story uses the <a href=\"https://rollforshoes.com/\">Roll for Shoes</a> system by DWeird."
+        },
+        {
+          "type": "text",
+          "value": "It first premiered on June 29, 2023, and ended two weeks later on July 13. It was exclusive on the Patreon until its public release September 12, 2023."
         }
       ]
     }

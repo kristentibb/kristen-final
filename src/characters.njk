@@ -6,7 +6,24 @@
 
 {% block content %}
 <article class="container quicksand">
-  <h1>Characters</h1>
+  <h1>The Wizard the Witch and the Wild One</h1>
   <p>I'll fill this in later.</p>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for character in characters.characters %}
+    <div class="col">
+      <div class="card h-100 text-bg-transparent border-warning quicksand">
+        <img src="../img/{{ character.slug }}.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title"> {{ character.name }} </h4>
+          <p class="card-text"> {{ character.played }}</p>
+          <p class="card-text post"> {{ character.post }}</p>
+        </div>
+        <div class="card-footer bg-transparent border-warning">
+          <p class="card-text">Official art by Lorena Lammer</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </article>
 {% endblock %}

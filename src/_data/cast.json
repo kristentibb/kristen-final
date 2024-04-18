@@ -1,0 +1,52 @@
+{
+  "cast": [
+    {
+      "slug": "brennan",
+      "name": "Brennan Lee Mulligan",
+      "pronouns": "He/Him/His",
+      "image": "bleem.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Blah blah blah"
+        }
+      ]
+    },
+    {
+      "slug": "aabria",
+      "name": "Arabia Iyengar",
+      "pronouns": "She/Her/Hers",
+      "image": "aabria.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Blah blah blah"
+        }
+      ]
+    },
+    {
+      "slug": "erika",
+      "name": "Erika Ishii",
+      "pronouns": "Any",
+      "image": "erika.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Blah blah blah"
+        }
+      ]
+    },
+    {
+      "slug": "lou",
+      "name": "Lou Wilson",
+      "pronouns": "He/Him/His",
+      "image": "lou0.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Blah blah blah"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "slug": "suvi",
+      "name": "Suvi",
+      "played": "played by Aabria Iyengar",
+      "image": "suvi.jpg",
+      "post": "blah blah blah"
+    },
+    {
+      "slug": "ame",
+      "name": "Ame",
+      "played": "played by Erika Ishii",
+      "image": "ame.jpg",
+      "post": "blah blah blah"
+    },
+    {
+      "slug": "eursulon",
+      "name": "Eursulon",
+      "played": "played by Lou Wilson",
+      "image": "eursulon.jpg",
+      "post": "blah blah blah"
+    }
+  ]
+}
