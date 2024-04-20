@@ -6,19 +6,19 @@
 
 {% block content %}
 <article class="container quicksand">
-  <h1>Characters</h1>
+  <h1>Cast</h1>
   <p>I'll fill this in later.</p>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
     {% for person in cast.cast %}
     <div class="col">
-      <div class="card h-100 text-bg-transparent border-warning quicksand">
-        <img src="" class="card-img-left" alt="...">
+      <div class="card h-100 text-bg-transparent border-secondary quicksand">
+        <img src="../img/{{ person.slug }}.jpg" class="card-img-left" alt="...">
         <div class="card-body">
           <h5 class="card-title"> {{ person.name }} </h5>
           <p class="card-text"> {{ person.value }}</p>
         </div>
-        <div class="card-footer bg-transparent border-warning">
-          <p class="card-text">Official art by Lorena Lammer</p>
+        <div class="card-footer bg-transparent border-secondary">
+          <p class="card-text">Photos from the official website</p>
         </div>
       </div>
     </div>
