@@ -6,8 +6,8 @@
 
 {% block content %}
 <article class="container quicksand">
-  <h1>Episodes</h1>
-  <p>All public episodes of Worlds Beyond Number, from most recent to first released.</p>
+  <h1 class="center">Episodes</h1>
+  <p class="center">All public episodes of Worlds Beyond Number, from most recent to first released.</p>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
     {% for episode in episodes.export %}
     <div class="col">
@@ -16,7 +16,7 @@
           <h5 class="card-title"> {{ episode.title }} </h5>
           <p class="card-text"> {{ episode.description }}</p>
         </div>
-        <div class="card-footer bg-transparent border-warning">
+        <div class="card-footer bg-transparent border-warning center">
           <a href="{{ episode.link }}" class="card-link btn btn-warning">Listen here</a>
         </div>
       </div>
