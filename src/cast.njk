@@ -7,7 +7,6 @@
 {% block content %}
 <article class="container quicksand">
   <h1 class="center">Cast</h1>
-  <p class="center">I'll fill this in later.</p>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
     {% for person in cast.cast %}
     <div class="col">
@@ -15,7 +14,8 @@
         <img src="img/{{ person.slug }}.jpg" class="card-img-left" alt="...">
         <div class="card-body">
           <h5 class="card-title"> {{ person.name }} </h5>
-          <p class="card-text"> {{ person.value }}</p>
+          <p class="card-text small"> {{ person.pronouns }}</p>
+          <p class="card-text"> {{ person.post }}</p>
         </div>
         <div class="card-footer bg-transparent border-secondary">
           <p class="card-text">Photos from the official website</p>

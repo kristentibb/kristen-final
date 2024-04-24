@@ -5,48 +5,28 @@
       "name": "Brennan Lee Mulligan",
       "pronouns": "He/Him/His",
       "image": "bleem.jpg",
-      "post": [
-        {
-          "type": "text",
-          "value": "Blah blah blah"
-        }
-      ]
+      "post": "Blah blah blah"
     },
     {
       "slug": "aabria",
-      "name": "Arabia Iyengar",
+      "name": "Aabria Iyengar",
       "pronouns": "She/Her/Hers",
       "image": "aabria.jpg",
-      "post": [
-        {
-          "type": "text",
-          "value": "Blah blah blah"
-        }
-      ]
+      "post": "blah blah blah"
     },
     {
       "slug": "erika",
       "name": "Erika Ishii",
       "pronouns": "Any",
       "image": "erika.jpg",
-      "post": [
-        {
-          "type": "text",
-          "value": "Blah blah blah"
-        }
-      ]
+      "post": "blah blah blah"
     },
     {
       "slug": "lou",
       "name": "Lou Wilson",
       "pronouns": "He/Him/His",
-      "image": "lou0.jpg",
-      "post": [
-        {
-          "type": "text",
-          "value": "Blah blah blah"
-        }
-      ]
+      "image": "lou.jpg",
+      "post": "blah blah blah"
     }
   ]
 }

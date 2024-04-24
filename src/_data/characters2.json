@@ -1,0 +1,25 @@
+{
+  "characters2": [
+    {
+      "slug": "phillip",
+      "name": "Phillip",
+      "played": "played by Aabria Iyengar",
+      "image": "phillip.jpg",
+      "post": "blah blah blah"
+    },
+    {
+      "slug": "itsa",
+      "name": "Itsa Winnerbaby",
+      "played": "played by Lou Wilson",
+      "image": "itsa.jpg",
+      "post": "blah blah blah"
+    },
+    {
+      "slug": "ruthie",
+      "name": "Ruthie",
+      "played": "played by Brennan Lee Mulligan",
+      "image": "ruthie.jpg",
+      "post": "blah blah blah"
+    }
+  ]
+}

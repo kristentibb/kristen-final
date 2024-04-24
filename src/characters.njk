@@ -7,7 +7,7 @@
 {% block content %}
 <article class="container quicksand">
   <h1 class="center">Player Characters</h1>
-  <h3 class="center">The Children's Adventure</h3>
+  <h3 class="center2">The Children's Adventure</h3>
   <h3 class="center">and The Wizard the Witch and the Wild One</h3>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     {% for character in characters.characters %}
@@ -15,7 +15,7 @@
       <div class="card h-100 text-bg-transparent border-secondary quicksand">
         <img src="img/{{ character.slug }}.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h4 class="card-title"> {{ character.name }} </h4>
+          <h4 class="card-title"> {{ character.name }}</h4>
           <p class="card-text"> {{ character.played }}</p>
           <p class="card-text post"> {{ character.post }}</p>
         </div>
@@ -30,7 +30,7 @@
 <article class="container quicksand">
   <h3 class="center mt-4">A County Affair</h3>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-        {% for character in characters.characters %}
+        {% for character in characters2.characters2 %}
     <div class="col">
       <div class="card h-100 text-bg-transparent border-secondary quicksand">
         <img src="img/{{ character.slug }}.jpg" class="card-img-top" alt="...">
@@ -40,10 +40,11 @@
           <p class="card-text post"> {{ character.post }}</p>
         </div>
         <div class="card-footer bg-transparent border-secondary">
-          <p class="card-text">Official art by Lorena Lammer</p>
+          <p class="card-text">From the official campaign poster</p>
         </div>
       </div>
     </div>
     {% endfor %}
+  </div>
 </article>
 {% endblock %}
